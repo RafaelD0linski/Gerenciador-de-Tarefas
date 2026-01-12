@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:password@localhost:27017/todo?authSource=admin
+
+jwt:
+  secret: rafaelDolinskiSecretKey2026SpringBootMongoDB
+  expiration: 86400000
+
+server:
+  port: 8080
